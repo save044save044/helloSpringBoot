@@ -10,4 +10,8 @@ public class HelloWorldController {
     public String sayHello(){
         return "index";
     }
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "index";
+    }
 }
